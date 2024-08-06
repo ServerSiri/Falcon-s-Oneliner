@@ -31,11 +31,11 @@ def get_ai_response(prompt, option):
                 {
                     "role": "user",
                     "content": prompt + f'''Don't give the direct answer. The answer you give must have the following sections:
-                    1. Give hints to solve the question but do not give the coding solution. After it, give a two-line space.
-                    2. Provide some real-world examples. Give only one example to explain it. Don't give the code. After it, give a two-line space.
-                    3. Give some more hints that enhance the self-learning of the user. After it, give a two-line space.
-                    4. Provide the {option} solution to the question. After it, give a two-line space.
-                    5. Mention the topic name to study to understand the question.
+                    Give hints to solve the question but do not give the coding solution. After it, give a two-line space.
+                    Provide some real-world examples. Give only one example to explain it. Don't give the code. After it, give a two-line space.
+                    Give some more hints that enhance the self-learning of the user. After it, give a two-line space.
+                    Provide the {option} solution to the question. After it, give a two-line space.
+                    Mention the topic name to study to understand the question.
                     '''
                 },
             ],
